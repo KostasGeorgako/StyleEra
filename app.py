@@ -550,18 +550,18 @@ async def update_distribution(payload: DistributionUpdateRequest):
     # Renormalize the final tag distribution
     final_tag_distribution_normalized = normalize_distribution(final_tag_distribution)
 
-    # Estimate the era distribution (optional, but let's normalize it too)
-    new_era_distribution = build_decade_distribution(current_distribution.eras)
-    new_era_distribution_normalized = normalize_distribution(new_era_distribution)
+    # Keep the original era distribution as is
+    new_era_distribution = current_distribution.eras
 
     distribution = {
         "tags": final_tag_distribution_normalized,
-        "eras": new_era_distribution_normalized,
+        "eras": new_era_distribution,  # Don't change the era distribution
         "uploadedTotal": current_distribution.uploadedTotal + len(accepted_images) + len(rejected_images),
     }
     cleaned_distribution = clean_distribution(distribution)
     # Return the updated distribution
     return cleaned_distribution
+
 
 # Normalize a distribution (used to make sure tag values sum to 1)
 def normalize_distribution(distribution: dict) -> dict:

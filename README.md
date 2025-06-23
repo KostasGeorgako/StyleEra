@@ -91,7 +91,7 @@ After swiping, see how your style distribution evolved based on your likes/disli
 Visual overview of StyleEra’s flow from image upload to personalized recommendations.
 
 <div style="text-align:center;">
-  <img src="images/styleera_architecturde.png" alt="Architecture Diagram" width="400" />
+  <img src="images/architecture.png" alt="Architecture Diagram" width="400" />
 </div>
 
 ---

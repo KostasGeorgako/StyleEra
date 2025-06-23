@@ -86,6 +86,16 @@ After swiping, see how your style distribution evolved based on your likes/disli
 
 ---
 
+## 🧩 Architecture Overview
+
+Visual overview of StyleEra’s flow from image upload to personalized recommendations.
+
+<div style="text-align:center;">
+  <img src="images/styleera_architecture.png" alt="Architecture Diagram" width="400" />
+</div>
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 🔑 Environment Variables

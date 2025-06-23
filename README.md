@@ -21,22 +21,36 @@ StyleEra is an AI-powered fashion stylist that analyzes outfit photos, identifie
 
 ## 📸 Screenshots
 
+
 ### 🏠 Landing Page
-Simple and clean UI welcoming users to StyleEra.
+Simple and clean UI welcoming users to StyleEra.<br>
+<img src="images/1.png" alt="Landing Page" width="600" />
 
 ### 🔍 Image Analysis in Progress
-Displays upload preview and backend progress as images are processed.
+Displays upload preview and backend progress as images are processed.<br>
+<img src="images/2.png" alt="Image Analysis" width="600" />
 
 ### 📊 Style Distribution
-Bar chart of the current dominant style tags and eras detected from uploaded outfits.
+Bar chart of the current dominant style tags and eras detected from uploaded outfits.<br>
+<div style="text-align:center;">
+  <img src="images/3.png" alt="Style Distribution" width="600" />
+</div>
 
 ### ❤️ Swipe Interface
-Interactive Tinder-like interface for feedback:
-- Swipe **right** to accept suggested looks
-- Swipe **left** to reject them
+Interactive Tinder-like interface for feedback:<br>
+- Swipe <b>right</b> to accept suggested looks<br>
+- Swipe <b>left</b> to reject them
+<div style="display:flex; gap:10px; justify-content:center;">
+  <img src="images/4.png" alt="Swipe Interface 1" width="400" />
+  <img src="images/5.png" alt="Swipe Interface 2" width="400" />
+</div>
 
 ### 🔄 Updated Distribution
-After swiping, see how your style distribution evolved based on your likes/dislikes.
+After swiping, see how your style distribution evolved based on your likes/dislikes.<br>
+<div style="text-align:center;">
+  <img src="images/6.png" alt="Distribution Diff" width="600" />
+</div>
+
 
 ---
 

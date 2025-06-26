@@ -41,8 +41,8 @@ Interactive Tinder-like interface for feedback:<br>
 - Swipe <b>right</b> to accept suggested looks<br>
 - Swipe <b>left</b> to reject them
 <div style="display:flex; gap:10px; justify-content:center;">
-  <img src="images/5.png" alt="Swipe Interface 2" width="400" />
   <img src="images/4.png" alt="Swipe Interface 1" width="400" />
+  <img src="images/5.png" alt="Swipe Interface 2" width="400" />
 </div>
 
 ### 🔄 Updated Distribution
